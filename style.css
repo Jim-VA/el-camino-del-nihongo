@@ -1,0 +1,101 @@
+/*Color palette:
+https://coolors.co/780000-9d0910-ea1f2d-f7efde-fdf0d5-ddc392-c39746-00283d*/
+
+body{
+    background-color:#FDF0D5;
+    color:#00283D;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #780000;
+    color:#E0C99F;
+    text-align:center;
+    padding: 30px 20px;
+    border-bottom:3px solid #EA1F2D ;
+}
+
+header .logo{
+    max-width: 120px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1{
+    margin:0;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+header p{
+    color:#C39746;
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
+
+main{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+main section{
+    background-color: #F7EFDE;
+    padding:25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border-left: 5px solid #C39746;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.7); 
+    overflow:hidden;
+    text-align: justify;
+}
+
+main section h2{
+    color:#780000;
+    margin-top: 0;
+    border-bottom: 1px solid #9D0910;
+    padding-bottom: 10px;
+}
+
+main section img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #C39746;
+    border-radius: 4px;
+
+}
+
+#carouselExample{
+    max-width:60%;
+    margin:0 auto;
+}
+
+footer ul{
+    list-style-type: none;
+    color:#F7EFDE;
+    padding-left: 20px;
+}
+
+footer ul li{
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #00283D;
+    color: #F7EFDE;
+    font-size: 0.9rem;
+    border-top: 1px solid #EA1F2D;
+    margin-top: 50px;
+
+}
